@@ -1,0 +1,36 @@
+.footer {
+	padding: 60px 0;
+}
+
+.footer__container {
+}
+
+.footer__grid {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	gap: 35px;
+}
+
+.footer__logo {
+}
+
+.footer__nav {
+	flex-grow: 1;
+}
+
+.footer__nav-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 15px;
+}
+
+.footer__nav-item {
+}
+
+.footer__nav-link {
+}
+
+.footer__social {
+}
