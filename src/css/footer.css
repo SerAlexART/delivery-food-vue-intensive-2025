@@ -1,5 +1,7 @@
 .footer {
 	padding: 60px 0;
+
+	background-color: var(--light-color);
 }
 
 .footer__container {
@@ -30,6 +32,23 @@
 }
 
 .footer__nav-link {
+	font-family: var(--font-family);
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+
+	color: var(--gray-color-dark);
+
+	transition-property: color;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+
+.footer__nav-link:hover,
+.footer__nav-link:focus-visible,
+.footer__nav-link:active {
+	color: var(--accent-color);
 }
 
 .footer__social {

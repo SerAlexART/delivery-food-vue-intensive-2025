@@ -1,0 +1,37 @@
+.banner {
+	padding: 70px;
+
+	border-radius: 10px;
+
+	background-color: var(--gold-color-light);
+
+	background-image: url("/src/assets/images/backgrounds/svetik-removebg-preview-1.png");
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-size: auto 100%;
+
+	filter: drop-shadow(0px 7px 12px rgba(158, 158, 163, 0.1));
+}
+
+.banner__info {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+
+	width: 100%;
+	max-width: 540px;
+
+	text-wrap: balance;
+}
+
+.banner__title {
+}
+
+.banner__subtitle {
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+
+	color: var(--dark-color);
+}

@@ -6,6 +6,12 @@ body {
 body {
 	display: flex;
 	flex-direction: column;
+
+	color: var(--dark-color);
+}
+
+* {
+	font-family: var(--font-family);
 }
 
 .visually-hidden {

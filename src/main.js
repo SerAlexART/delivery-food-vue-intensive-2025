@@ -7,6 +7,11 @@ import './css/container.css';
 import './css/header.css';
 import './css/logo.css';
 import './css/button.css';
+import './css/typography.css';
+import './css/banner.css';
+import './css/restaurants.css';
+import './css/restaurant-card.css';
+import './css/food-card.css';
 import './css/social.css';
 import './css/footer.css'
 

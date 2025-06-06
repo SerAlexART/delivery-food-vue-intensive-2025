@@ -10,11 +10,12 @@
 	--accent-color: #1890ff;
 	--secondary-color: #262626;
 	--gold-color: #ffc107;
+	--gold-color-light: #fff1b8;
 
 	--main-gradient: linear-gradient(180deg, rgba(245, 245, 245, 0) 1.04%, #f5f5f5 100%);
 
 	--font-family: "Roboto", "Helvetica", sans-serif;
 
 	--inline-container-padding: 30px;
-	--container-width: calc(var(--inline-container-padding + calc(var(--inline-container-padding) * 2)));
+	--container-width: calc(1200px + calc(var(--inline-container-padding) * 2));
 }
